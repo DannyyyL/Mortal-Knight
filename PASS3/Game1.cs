@@ -593,6 +593,7 @@ namespace PASS3
                     //Button sfx
                     buttonSFX.CreateInstance().Play();
 
+                    /*
                     //IF player's first playthrough
                     //THEN send them to the instructions screen
                     //ELSE begin gameplay (and start music)
@@ -610,6 +611,13 @@ namespace PASS3
                         //Changing state to gameplay
                         gameState = GAMEPLAY;
                     }
+                    */
+                     //Starting gameplay music
+                    MediaPlayer.Play(gameplayMusic);
+                    //Resetting & Activating speedrun timer
+                    speedrunTimer.ResetTimer(true);
+                    //Changing state to gameplay
+                    gameState = GAMEPLAY;
                 }
                 //Instruction btn collision detection
                 if (menuBtnRecs[INFO].Contains(mouse.Position))
