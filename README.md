@@ -1,6 +1,7 @@
 # Mortal Knight
 
-Main class is found in `Mortal-Knight/PASS3/Game1.cs`
+Main class is found in:
+`Mortal-Knight/PASS3/Game1.cs`
 
 ![Gameplay Preview](PASS3/Content/MortalKnightGameplay.gif)  
 
